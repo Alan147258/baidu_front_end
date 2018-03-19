@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>队列</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <div class="tag">
+            <label for="tag_input">Tag:</label>
+            <input type="text" id="tag_input"  placeholder="输入Tag"/>
+            <input type="button" id="left_in" value="左侧入"/>
+            <input type="button" id="right_in"  value="右侧入"/>
+            <input type="button" id="left_out"  value="左侧出"/>
+            <input type="button" id="right_out"  value="右侧出"/>
+            <input type="button" id="tag_clear"  value="清除"/>
+            <div id="tag_queue"></div>
+        </div>
+        <div class="hobby">
+            <textarea rows="1" cols="30" id="hobby_text" placeholder="请输入爱好并用不同符号分隔"></textarea>
+            <br/>
+            <input type="button" id="hobby_right_in"  value="确认兴趣爱好"/>
+            <input type="button" id="hobby_clear"  value="清除"/>
+            <div id="hobby_queue"></div>
+        </div>
+    </div>
+    <script src="task_21.js" charset="utf-8"></script>
+</body>
+</html>

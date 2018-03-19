@@ -1,0 +1,32 @@
+<html>  
+<head>  
+    <meta charset="utf-8">  
+    <title>听指令的小方块</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+    <script src="jquery-3.3.1.min.js"></script>
+</head>  
+<body>
+    <div class="container" id="container">
+        <div class="header">
+            <canvas id="header_number" width="600" height="30">顶部数字</canvas>
+        </div>
+        <div class="left">
+            <canvas id="left_number" width="30" height="650">左边数字</canvas>
+        </div><div class="center">
+            <div class="checkerboard" id="checkerboard">
+                <div class="img" id="img"><img id="image" src="dom.png"/></div>
+                <canvas id="grid" width="600" height="600">棋盘网格</canvas>
+            </div>
+        </div>
+        <div class="bottom">
+            <h3>说明：</h3>
+            <p>1.点击网格可自动寻找最优路径，使目标移动到点击的位置</p>
+            <p>2.白色网格为可走路径，蓝色网格是墙壁，为不可走路径</p>
+            <p>3.刷新页面可以重新随机生成墙壁</p>
+            <input type="button" id="revoke" value="撤回"/>
+        </div>
+    </div>
+	<script src="task.js"></script>
+</body>
+	
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+ </head>
+<body>
+    <div class="container">
+        <aside class="console">
+            <div class="order" id="order" ></div>
+        </aside><article class="main">
+            <div  class="show" id="show">
+                <canvas id="canvas" width="915px" height="800px"></canvas>
+                <img src="img/earth.png"  class="earth" id="earth"/>
+                <img src="img/plane1.png" class="plane" id="plane1"/>
+                <img src="img/plane2.png" class="plane" id="plane2"/>
+                <img src="img/plane3.png" class="plane" id="plane3"/>
+                <img src="img/plane4.png" class="plane" id="plane4"/>
+            </div>
+            <div class="control" id="control">
+                <ul>
+                    <li>
+                        <label>飞船 1:</label>
+                        <input type="button" class="button" value="飞船准备" name="0"/>
+                        <input type="button" class="button" value="开始飞行" name="0"/>
+                        <input type="button" class="button" value="停止飞行" name="0"/>
+                        <input type="button" class="button" value="销毁飞机" name="0"/>
+                    </li>
+                    <li>
+                        <label>飞船 2:</label>
+                        <input type="button" class="button" value="飞船准备" name="1"/>
+                        <input type="button" class="button" value="开始飞行" name="1"/>
+                        <input type="button" class="button" value="停止飞行" name="1"/>
+                        <input type="button" class="button" value="销毁飞机" name="1"/>
+                    </li>
+                    <li>
+                        <label>飞船 3:</label>
+                        <input type="button" class="button" value="飞船准备" name="2"/>
+                        <input type="button" class="button" value="开始飞行" name="2"/>
+                        <input type="button" class="button" value="停止飞行" name="2"/>
+                        <input type="button" class="button" value="销毁飞机" name="2"/>
+                    </li>
+                    <li>
+                        <label>飞船 4:</label>
+                        <input type="button" class="button" value="飞船准备" name="3"/>
+                        <input type="button" class="button" value="开始飞行" name="3"/>
+                        <input type="button" class="button" value="停止飞行" name="3"/>
+                        <input type="button" class="button" value="销毁飞机" name="3"/>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </div>
+    <script src="js/draw.js"></script>
+    <script src="js/plane.js"></script>
+    <script src="js/function.js"></script>
+    <script src="js/task.js"></script>
+</body>
+ </html>

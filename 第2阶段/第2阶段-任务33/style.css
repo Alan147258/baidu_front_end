@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "宋体";
+    font-size: 18px;
+    background-color: #fff;
+}
+.container{
+    width: 560px;
+    height: 580px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.header{
+    display: block;
+    width: 530px;
+    height: 30px;
+    margin-left: 30px;
+    /*background-color: #eee;*/
+}
+.left{
+    display: inline-block;
+    width: 30px;
+    height: 550px;
+   /* background-color: #ccc;*/
+}
+.center{
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+    height: 500px;
+}
+.checkerboard{
+    position: relative;
+    display: block;
+    width: 498px;
+    height: 498px;
+    border: 2px solid #666;
+}
+.bottom{
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+    /*background-color: #ddd;*/
+}
+.img{
+    position: absolute;
+}
+.img img{
+    width: 50px;
+    height: 50px;
+
+}
+.container p{
+    font-size: 14px;
+    color: #666;
+}

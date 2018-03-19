@@ -1,0 +1,47 @@
+<html>  
+<head>  
+    <meta charset="utf-8">  
+    <title>表单验证1</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>  
+<body>
+    <div class="container" id="container">
+        <div class="name">
+			<h2>用户名: </h2><div class="input">
+				<input type="text" id="username_input" placeholder="输入4-16位用户名"/>
+			</div>
+            <p class="tips" id="username_tips">必填，长度为4~16个字符</p>
+		</div>
+        <div class="name">
+            <h2>密码: </h2><div class="input">
+            <input type="password" id="password_input" placeholder="输入密码"/><img src="images/visible.png" id="btn" />
+        </div>
+            <p class="tips" id="password_tips">由字母、数字和下划线组成，长度为6~15</p>
+        </div>
+        <div class="name">
+            <h2>确认密码: </h2><div class="input">
+            <input type="password" id="confirm_password_input" placeholder="确认密码"/><img src="images/visible.png" id="btn_confirm" />
+        </div>
+            <p class="tips" id="confirm_password_tips">确认密码</p>
+        </div>
+		<div class="name">
+			<h2>手机: </h2><div class="input">
+			    <input type="text" id="telephone_input" placeholder="输入姓名"/>
+			</div>
+            <p class="tips" id="telephone_tips">必填，长度为2~16个字符</p>
+		</div>
+		<div class="name">
+			<h2>邮箱: </h2><div class="input">
+				<input type="text" id="email_input" placeholder="输入邮箱"/>
+			</div>
+            <p class="tips" id="email_tips">选填</p>
+		</div>
+
+        <div  class="button">
+            <input type="button" value="验证" id="check_button"/>
+        </div>
+    </div>
+	<script src="task_30.js"></script>
+</body>
+	
+</html> 

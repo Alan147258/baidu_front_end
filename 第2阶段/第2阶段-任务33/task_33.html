@@ -1,0 +1,31 @@
+<html>  
+<head>  
+    <meta charset="utf-8">  
+    <title>听指令的小方块</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>  
+<body>
+    <div class="container" id="container">
+        <div class="header">
+            <canvas id="header_number" width="530" height="30">顶部数字</canvas>
+        </div>
+        <div class="left">
+            <canvas id="left_number" width="30" height="550">左边数字</canvas>
+        </div><div class="center">
+            <div class="checkerboard">
+                <div class="img" id="img"><img src="dom.png"/></div>
+                <canvas id="grid" width="500" height="500">棋盘网格</canvas>
+            </div>
+            <div class="bottom">
+                <input type="button" value="移动" class="button" id="go"/>
+                <input type="button" value="TUN LEF" class="button" id="lef"/>
+                <input type="button" value="TUN RIG" class="button" id="rig"/>
+                <input type="button" value="TUN BAC" class="button" id="bac"/>
+            </div>
+            <p>Tips: TUN LEF->逆时针转动&nbsp;&nbsp;TUN LEF->顺时针转动&nbsp;&nbsp;TUN BAC->转动180度</p>
+        </div>
+    </div>
+	<script src="task_33.js"></script>
+</body>
+	
+</html>

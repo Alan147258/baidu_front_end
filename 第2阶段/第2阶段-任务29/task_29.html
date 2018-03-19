@@ -1,0 +1,39 @@
+<html>  
+<head>  
+    <meta charset="utf-8">  
+    <title>表单验证1</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>  
+<body>
+    <div class="container" id="container">
+        <div class="name">
+			<h2>用户名: </h2><div class="input">
+				<input type="text" id="username_input" placeholder="输入4-16位用户名"/>
+			</div><div class="button">
+				<label for="username_button"></label>
+				<input type="button" value="验证" id="username_button"/>
+			</div>
+            <p class="tips" id="username_tips">必填，长度为4~16个字符</p>
+		</div>
+		<div class="name">
+			<h2>姓名: </h2><div class="input">
+			<input type="text" id="name_input" placeholder="输入姓名"/>
+			</div><div  class="button">
+				<input type="button" value="验证" id="name_button"/>
+			</div>
+            <p class="tips" id="name_tips">必填，长度为2~16个字符</p>
+		</div>
+		<div class="name">
+			<h2>邮箱: </h2><div class="input">
+				<input type="text" id="email_input" placeholder="输入邮箱"/>
+			</div><div class="button">
+				<input type="button" value="验证" id="email_button"/>
+			</div>
+            <p class="tips" id="email_tips">选填</p>
+		</div>
+
+    </div>
+	<script href="text/javascript"src="task_29.js"></script>
+</body>
+	
+</html> 

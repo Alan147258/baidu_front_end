@@ -1,0 +1,65 @@
+*{
+    font-family: "微软雅黑";
+    font-size: 20px;
+}
+input[type="button"]{
+    margin-right: 10px;
+    height: 35px;
+    color: #41788c;
+    border: 1px solid #6fb1c7;
+    text-shadow: 1px 1px 1px #bfeafb;
+    background-color: #73d0f1;
+    box-shadow: 0 0 4px #999999;
+}
+input[type="button"]:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 8px #999999;
+}
+input[type="button"]:active{
+    transform: scale(1.06);
+    box-shadow: 0 0 6px #999999;
+}
+input[type="text"]{
+    font-size: 13px;
+    min-height: 32px;
+    margin: 0;
+    padding: 7px 8px;
+    outline: none;
+    color: #333;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: all 0.15s ease-in;
+    -webkit-transition: all 0.15s ease-in 0;
+    vertical-align: middle;
+}
+input[type=text]:focus {
+    outline: none;
+    border-color: #51a7e8;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.075), 0 0 5px rgba(81,167,232,.5);
+}
+.queue_style{
+    display: inline-block;
+    height: 30px;
+    min-width: 40px;
+    background-color: #a0e1f6;
+    text-align: center;
+    margin: 30px 10px 10px 5px;
+    box-shadow: 2px 2px 5px #999999;
+    border-radius: 5px;
+}
+.queue_style:hover{
+    transform: scale(1.1);
+    box-shadow:  4px 4px 5px #999999;
+}
+.p{
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    font-size: 12px;
+}

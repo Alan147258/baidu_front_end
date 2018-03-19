@@ -1,0 +1,40 @@
+<html>  
+<head>  
+    <meta charset="utf-8">  
+    <title>表单验证1</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>  
+<body>
+    <div class="container" id="container">
+       <div class="radio" id="radio">
+           在校生<input type="radio" name="select" checked="checked"/>
+           非在校生<input type="radio" name="select"/>
+       </div>
+       <div class="institution">
+           <div class="student" id="student">
+               <p>学校</p><select id="city" class="select">
+                   <option value="南京">南京</option>
+                   <option value="北京">北京</option>
+                   <option value="杭州">杭州</option>
+                   <option value="上海">上海</option>
+                   <option value="深圳">深圳</option>
+               </select><select id="school"  class="select">
+                   <option value="南京邮电大学">南京邮电大学</option>
+                   <option value="南京大学">南京大学</option>
+                   <option value="南京航空航天大学">南京航空航天大学</option>
+                   <option value="南京财经大学">南京财经大学</option>
+                   <option value="南京师范大学">南京师范大学</option>
+               </select>
+           </div>
+           <div class="employment" id="employment">
+               <p>就业单位</p><input type="text" class="employment_unit" id="employment_unit" autocomplete="off" placeholder="输入就业单位"/>
+           </div>
+       </div>
+       <div class="showInformation">
+           <input type="button" class="button" id="button" value="提交"/><p  id="showInformation"></p>
+       </div>
+    </div>
+	<script src="task_31.js"></script>
+</body>
+	
+</html> 

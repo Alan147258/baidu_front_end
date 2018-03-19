@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 400px;
+	margin: 40px auto;
+}
+.container h2{
+	display: inline-flex;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	min-width: 65px;
+}
+/*用户名*/
+.name{
+	width: 500px;
+	height: 50px;
+    margin: 15px 0;
+	padding: 5px;
+}
+.input{
+	display: inline-flex;
+	width: 310px;
+	height: 40px;
+	border-radius: 10px;
+}
+.input input{
+	display: inline-flex;
+	outline: none;
+	width: 300px;
+	height: 40px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	box-shadow: 0 0 5px #666 inset;
+	border: none;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+.button{
+	display: inline-flex;
+	position: relative;
+	vertical-align: top;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+}
+.button input{
+	position: absolute;
+	left: 0;
+	outline: none;
+	height: 40px;
+	float: left;
+    font-family: "微软雅黑";
+	border: none;
+	box-shadow: none;
+	border-radius: 5px;
+	background-color: rgb(47,121,166);
+	color: white;
+	font-size: 16px;
+	min-width: 70px;
+}
+.button input:hover{
+	transform: scale(1.06);
+	box-shadow: 3px 3px 5px #666;
+}
+.button input:active{
+	transform: scale(1.02);
+}
+.tips{
+    margin-left: 69px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #aaa;
+}
+
+
+

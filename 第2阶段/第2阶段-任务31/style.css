@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
+.container {
+	width: 550px;
+	margin: 40px auto;
+}
+.container h2{
+	display: inline-flex;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	min-width: 85px;
+}
+.radio{
+    width: 280px;
+    margin: 0 auto;
+}
+.radio input:first-child{
+    margin-right: 100px;
+}
+/*用户名*/
+.institution p{
+    display: inline-block;
+    min-width: 90px;
+}
+.student{
+	display: inline-flex;
+	width: 550px;
+	height: 35px;
+	border-radius: 10px;
+    margin: 20px 0;
+}
+.student .select{
+	display: inline-flex;
+	outline: none;
+	width: 200px;
+	height: 35px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	box-shadow: 0 0 3px #666 inset;
+    color: #333;
+	border: none;
+	border-radius: 5px;
+    margin-right: 30px;
+    padding-left: 10px;
+}
+.student .select option{
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+.employment{
+    display: none;
+}
+.employment .employment_unit{
+    display: inline-flex;
+    outline: none;
+    width: 430px;
+    height: 35px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    box-shadow: 0 0 3px #666 inset;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding-left: 10px;
+}
+.showInformation{
+    width: 550px;
+    height: 35px;
+    margin: 20px 0;
+}
+.button{
+    height: 40px;
+    font-family: "微软雅黑";
+    box-shadow: none;
+    background-color: rgb(47, 121, 166);
+    color: white;
+    font-size: 16px;
+    min-width: 70px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.button:hover{
+    transform: scale(1.06);
+    box-shadow: 3px 3px 5px #666;
+}
+.button:active{
+    transform: scale(1.02);
+}
+.empty{
+    border: 2px solid red;
+}
+
+

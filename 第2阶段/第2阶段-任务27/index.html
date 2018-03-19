@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+ </head>
+<body>
+    <div class="container">
+        <aside class="console">
+            <div class="order" id="order" ></div>
+        </aside><article class="main">
+            <div  class="show" id="show">
+                <canvas id="canvas" width="915px" height="800px"></canvas>
+                <img src="img/earth.png"  class="earth" id="earth"/>
+                <img src="img/plane1.png" class="plane" id="plane1"/>
+                <img src="img/plane2.png" class="plane" id="plane2"/>
+                <img src="img/plane3.png" class="plane" id="plane3"/>
+                <img src="img/plane4.png" class="plane" id="plane4"/>
+            </div>
+
+        </article>
+        <aside class="control" id="control">
+            <div id="set_plane" class="set_plane">
+                <label for="power_select">动力系统选择:</label>
+                <select id="power_select">
+                    <option>民航飞机</option>
+                    <option>升天火箭</option>
+                    <option>绕地卫星</option>
+                    <option>航天飞机</option>
+                </select>
+                <p>前进号(速率30px/s 能耗5%/s)<br/>奔腾号(速率50px/s 能耗7%/s)<br/>
+                    超越号(速率80px/s 能耗9%/s)<br/>曲率号(速率100px/s 能耗12%/s)</p>
+                <label for="energy_select">能源系统选择:</label>
+                <select id="energy_select">
+                    <option>劲量型</option>
+                    <option>光能型</option>
+                    <option>核动力</option>
+                    <option>永久型</option>
+                </select>
+                <p>劲量型(充能速率2%/s)<br/>光能型(充能速率4%/s)<br/>
+                    核动力(充能速率8%/s)<br/>永久型(充能速率12%/s)</p>
+                <input type="button" class="button" id="create_plane" value="创建飞机"/>
+            </div>
+            <ul>
+                <li>
+                    <label>飞船 1:</label>
+                    <input type="button" class="button" value="开始飞行" name="0"/>
+                    <input type="button" class="button" value="停止飞行" name="0"/>
+                    <input type="button" class="button" value="销毁飞机" name="0"/>
+                </li>
+                <li>
+                    <label>飞船 2:</label>
+                    <input type="button" class="button" value="开始飞行" name="1"/>
+                    <input type="button" class="button" value="停止飞行" name="1"/>
+                    <input type="button" class="button" value="销毁飞机" name="1"/>
+                </li>
+                <li>
+                    <label>飞船 3:</label>
+                    <input type="button" class="button" value="开始飞行" name="2"/>
+                    <input type="button" class="button" value="停止飞行" name="2"/>
+                    <input type="button" class="button" value="销毁飞机" name="2"/>
+                </li>
+                <li>
+                    <label>飞船 4:</label>
+                    <input type="button" class="button" value="开始飞行" name="3"/>
+                    <input type="button" class="button" value="停止飞行" name="3"/>
+                    <input type="button" class="button" value="销毁飞机" name="3"/>
+                </li>
+            </ul>
+        </aside>
+    </div>
+    <script src="js/draw.js"></script>
+    <script src="js/plane.js"></script>
+    <script src="js/function.js"></script>
+    <script src="js/task.js"></script>
+</body>
+ </html>
